@@ -6,19 +6,25 @@
 	<link rel="alternate" href="core.css">
 </head>
 <body>
-	<header>
-		<h1>tgLandingPage...</h1>
-	</header>
-	<section>
-		<!-- PUT YOU CONTENT HERE YO... -->
-	</section>
-	<footer>
-		<p>tgLandingPage... | 2014</p>
-	</footer>
+	<div id="spa"></div>
 	<!-- BACKBONE.JS DEPENDENCIES... -->
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
-	<script src="bower_components/lodash/dist/lodash.min.js"></script>
+	<script src="bower_components/underscore/underscore-min.js"></script>
 	<script src="bower_components/backbone/backbone.js"></script>
+	<script type="text/template" id="index-view">
+		<section>
+			<h1>tgLandingPage...</h1>
+			<a href="#/">Home</a>
+			<a href="#/about">About</a>
+		</section>
+	</script>
+	<script type="text/template" id="about-view">
+		<section>
+			<h1>tgAboutPage...</h1>
+			<a href="#/">Home</a>
+			<a href="#/about">About</a>
+		</section>
+	</script>
 	<script src="core.js"></script>
 </body>
 </html>
